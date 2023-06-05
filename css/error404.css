@@ -1,0 +1,38 @@
+body{
+    background: #f9a542;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+img{
+    width: 50%;
+}
+.error404-cont{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: rgb(233, 238, 245);
+    font-size: 25px;
+    padding: 25px;
+}
+.boton-404{
+    padding: 15px 30px;
+    border-radius: 15px;
+    border: none;
+    background: #eb9028;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+@media screen and (max-width:630px){
+    h1{
+        font-size: 16px;
+    }
+}

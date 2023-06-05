@@ -1,0 +1,24 @@
+.header-color{
+    background: rgba(12, 13, 14, 0.795);
+}
+header ul li{
+    margin: 0.6vw;
+}
+header ul li:hover a{
+    background-color: none;
+    color: #0a5071;
+    padding: 1px;
+}
+.logonikenav{
+    height: 50px;
+}
+.topBanner {
+    height: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    color: #dfd0bb;
+    background-color: #1e2d2c;
+    margin: 0;
+}

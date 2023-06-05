@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/1111.jpg);
+    background-size: 100%;
+    background-size:cover;
+}
+
+.Contenedor-form{
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 7vw;    
+}
+.Contenedor-form h2{
+    padding: 5px;
+    border-radius: 5px;
+    display: inline;
+    background-color: rgba(127, 255, 212, 0.705) ;
+    margin-bottom: 15px;
+    font-size: 45px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Contenedor-form a{
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: blue;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.Contenedor-form p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Contenedor-form iframe{
+    flex: auto;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 5px 10px black;
+}
+.Formulario input{
+display: flex;
+flex-direction: column;
+padding: 20px 100px;
+font-size: 15px;
+border: 1px solid black;
+border-radius: 3px;
+margin-bottom: 40px;
+width: 90%;
+}
+.Formulario{
+    box-shadow: 0px 0px 40px 10px aquamarine;
+    margin: 30px;
+    margin-left: 20px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.685);
+
+}
+.Formulario .btn-enviar{
+    padding: 15px;
+    color: black;
+    background-color: aquamarine;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.Formulario .btn-enviar:hover{
+    box-shadow: 0px 0px 5px 5px  black;
+}
+.info-contenedor{
+    width: 50%;
+}

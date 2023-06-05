@@ -1,0 +1,67 @@
+body{
+    background-image: url(/assets/1111.jpg);
+    background-size: 100%;
+    background-size:cover;
+
+
+}
+.Conteneiner-1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 200px 30px 30px 30px;
+}
+.Conteiner-2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 10px blue;
+}
+.Conteiner-3{
+    margin: auto;
+    border: 3px solid black;
+    padding: 20px;
+
+}
+.Conteiner-3 h1{
+    padding: 20px;
+    border: 2px solid black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+}
+.Conteneiner-4{
+    display: flex;
+    flex-direction: row-reverse;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.Conteneiner-4 img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 3px 3px black;
+    transition: all 300ms;
+}
+.Conteneiner-4 img:hover{
+    width:  110px;
+    height: 110px;
+    box-shadow: 0 0 3px 3px blue;
+}
+.Conteneiner-4 h2{
+    margin-left: 30px;
+    margin-bottom: 80px;
+}
+.Conteneiner-4 button{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 20%;
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    transition: all 250ms;
+}
+.Conteneiner-4 button:hover{
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+}
